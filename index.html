@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo1.png" alt="Cafe Logo" class="logo">
+    </header>
+    <h2 class="heading">Recipes</h2>
+    <div class="grid">
+        <div class="dish" data-dish="croissant">
+           <img  class="square" src="images/croissant.png" alt="Croissant">
+            <br>
+            <button >&nbsp;&nbsp;Croissant&nbsp;&nbsp;</button>
+        </div>
+        <div class="dish" data-dish="tart">
+            <img  class="square" src="images/tart.jpg" alt="Tart">
+            <br>
+            <button>&nbsp;&nbsp;Tart&nbsp;&nbsp;</button>
+        </div>
+        <div class="dish" data-dish="cinnamon">
+            <img class="square" src="images/cinammonroll.jpg" alt="Cinnamon Roll">
+            <br>
+            <button>&nbsp;&nbsp;Cinnamon Roll&nbsp;&nbsp;</button>
+        </div>
+        <div class="dish" data-dish="macaron">
+            <img class="square" src="images/macaron.png" alt="Macaron">
+            <br>
+            <button>&nbsp;&nbsp;Macaron&nbsp;&nbsp;</button>
+        </div>
+        <div class="dish" data-dish="brownie">
+            <img class="square" src="images/brownie.jpg" alt="Brownie">
+            <br>
+            <button>&nbsp;&nbsp;Brownie&nbsp;&nbsp;</button>
+        </div>
+        <div class="dish" data-dish="cupcake">
+            <img class="square" src="images/cupcake.jpg" alt="Cupcake">
+            <br>
+            <button>&nbsp;&nbsp;Cupcake&nbsp;&nbsp;</button>
+        </div>
+    </div>
+
+    <div class="recipe-card" id="recipeCard">
+        <div class="recipe-content">
+            <div class="text-section" id="recipeText"></div>
+            <div class="image-section" id="recipeImage"></div>
+        </div>
+        <button id="doneBtn">Done</button>
+        <button id="btnPrint" onclick="handlePrint();">Print</button>
+    </div>
+
+    <footer>
+        <p>Contact us: brewandbrake@gmail.com | +91 9876543210</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</body>
+</html>
+
+
