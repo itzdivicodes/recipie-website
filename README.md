@@ -1,9 +1,9 @@
-# 🧁 Recipe Website – Pastry
+## 🧁 Recipe Website – Pastry
 
 A visually delightful and interactive recipe website showcasing **six classic pastries**: **cupcake, brownie, macaron, cinnamon roll, tart, and croissant**. Users can explore detailed ingredients and step-by-step instructions, all enhanced with smooth animations and a built-in preparation timer.
 
 
-## Features
+### Features
 
 - Beautiful UI with pastry thumbnails (3 top + 3 bottom layout)
 - Click on a dish to view a dynamic recipe card
@@ -15,15 +15,14 @@ A visually delightful and interactive recipe website showcasing **six classic pa
 - Footer with contact info and header with cafe logo/name
 
 
-## Tech Stack
+### Tech Stack
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla)**
 
----
 
-## 🧁 Pastries 
+### 🧁 Pastries 
 
 - Cupcake  
 - Brownie  
@@ -38,5 +37,4 @@ Each dish reveals:
 - Estimated prep time  
 - Timer functionality  
 
----
 
